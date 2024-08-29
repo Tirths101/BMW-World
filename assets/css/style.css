@@ -53,7 +53,7 @@ h1 {
 }
 
 .active {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #252525;
 }
 
 /* Navbar styles with dropdown toggle */
@@ -63,7 +63,7 @@ nav {
     width: 100%;
     left: 0;
     padding: 0 1rem;
-    box-shadow: 0 2px 2px #3a3a3a;
+    box-shadow: 0 2px 2px #252525;
     display: none;
     top: 100%;
 }
@@ -90,6 +90,20 @@ main {
 }
 
 /* Footer */
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #252525;
+}
+
 footer {
     background-color: #E7222E;
 }
@@ -133,6 +147,6 @@ footer {
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover {
-        border-bottom: 1px solid #3a3a3a;
+        border-bottom: 1px solid #252525;
     }
 }
