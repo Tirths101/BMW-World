@@ -110,6 +110,33 @@ main {
     color: #81C4FF;
 }
 
+/* Reasons section */
+#reasons {
+    width: 80%;
+    margin: 20px auto;
+}
+
+#reasons h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 300%;
+}
+
+#benefits-performance > div,
+#benefits-luxury > div {
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+#benefits p {
+    padding: 0 20px;
+}
+
+#benefits hr {
+    border-top: 3px solid #252525;
+    margin: 10px 0;
+}
+
 /* Footer */
 #social-networks {
     text-align: center;
