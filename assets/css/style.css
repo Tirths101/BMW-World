@@ -213,6 +213,24 @@ footer {
         width: 350px;
         right: 210px;
     }
+
+    /* Reasons section */
+    #benefits-performance,
+    #benefits-luxury {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #benefits-performance > div,
+    #benefits-luxury > div {
+        width: 75%;
+    }
+
+    #benefits-luxury > div {
+        text-align: end;
+        align-self: flex-end;
+    }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
