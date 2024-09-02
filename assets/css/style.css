@@ -129,12 +129,18 @@ main {
 }
 
 #benefits p {
-    padding: 0 20px;
+    padding: 0 15px;
 }
 
 #benefits hr {
-    border-top: 3px solid #252525;
+    border-top: 3px solid #E7222E;
     margin: 10px 0;
+}
+
+#benefits-performance p,
+#benefits-luxury p {
+    color: #16588E;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #circle-cover-bg {
@@ -148,10 +154,29 @@ main {
     max-height: 300px;
 }
 
+#front-page-image {
+    background: url('../images/BMW-XM.webp') no-repeat top center / cover;
+    height: 90vh;
+    width: 90vh;
+    margin-bottom: 20px;
+    /* Turns a square image into a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
 #benefits-image {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
+    align-self: flex-start;
+}
+
+#front-pg-image {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: flex-end;
 }
 
 /* Footer */
@@ -224,7 +249,7 @@ footer {
 
     #benefits-performance > div,
     #benefits-luxury > div {
-        width: 75%;
+        width: 99%;
     }
 
     #benefits-luxury > div {
@@ -242,5 +267,33 @@ footer {
     #cover-text {
         width: 350px;
         right: 550px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    /* Reasons section */
+    #benefits {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #benefits > div {
+        flex: 1;
+    }
+
+    #benefits-image {
+        order: 0;
+    }
+
+    #benefits-performance {
+        order: 1;
+    }
+
+    #benefits-performance > div {
+        align-self: flex-start;
+    }
+
+    #benefits-luxury > div {
+        align-self: flex-end;
     }
 }
