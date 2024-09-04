@@ -193,6 +193,42 @@ main {
     object-fit: cover;
 }
 
+/* History page section */
+
+#history {
+    background: url('../images/First-BMW-1.webp.jpg') no-repeat center/cover;
+    /* Responses correctly to device size without the need for a media query */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#history div {
+    color: #81C4FF;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 0 25px;
+    text-align: center;
+    flex-basis: 200px;
+    flex-grow: 1;
+    border: 3px solid #16588E;
+}
+
+#history-pg h2 {
+    color: #81C4FF;
+    background-color: rgb(0, 12, 71);
+    padding: 0 25px;
+    text-align: center;
+}
+
+#history h3 {
+    color: #E7222E;
+}
+
+#history hr {
+    border-top: 3px solid #fafafa;
+    margin: 10px 0;
+}
+
 /* Footer */
 #social-networks {
     text-align: center;
