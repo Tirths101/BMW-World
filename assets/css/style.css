@@ -181,6 +181,14 @@ main {
     align-self: flex-end;
 }
 
+/* Audio */
+figure {
+    display: flex;
+    justify-content: center;
+    background-color: #fafafa;
+    border-radius: 1px;
+}
+
 /* Gallery page */
 #photos img {
     width: 100%;
