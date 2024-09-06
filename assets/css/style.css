@@ -110,7 +110,7 @@ main {
 }
 
 #cover-text > h2, #cover-text > h3 {
-    color: #81C4FF;
+    color: #E7222E;
 }
 
 /* Reasons section */
@@ -302,8 +302,8 @@ footer {
 
     /* Hero */
     #cover-text {
-        width: 350px;
-        right: 210px;
+        width: 300px;
+        right: 50px;
     }
 
     /* Reasons section */
